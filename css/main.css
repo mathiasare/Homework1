@@ -59,3 +59,49 @@ header{
    width:100%;
    max-height: 20em;
 }
+
+
+#login{
+    width: 25%;
+    min-width: 500px;
+    background-color: white;
+    height: auto;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+#login div{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#login div form{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+br ~ form input{
+    padding: 7px;
+    margin: 3px;
+    width: 100%;
+}
+input + input + button{
+    background-color: forestgreen;
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 3px;
+}
+#logininfo {
+    line-height: 0px;
+}
