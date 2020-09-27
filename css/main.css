@@ -131,6 +131,6 @@ input + input + button{
     padding-bottom: 10px;
     margin: 3px;
 }
-#logininfo {
+#login > div > h2{
     line-height: 0px;
 }
