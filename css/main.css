@@ -23,9 +23,8 @@ nav{
     display:flex;
     align-items: center;
     flex-direction: column;
-
     margin-bottom: 7em;
-
+    padding-bottom: 7em;
 }
 .container{
     margin-top:7%;
@@ -52,7 +51,7 @@ header{
 }
 
 .searchbox{
-    width:20em;
+    width:30em;
 }
 
 .box-image{
