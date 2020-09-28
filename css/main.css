@@ -133,3 +133,6 @@ input + input + button{
 #login > div > h2{
     line-height: 0px;
 }
+.submit:hover{
+    background-color: red;
+}
